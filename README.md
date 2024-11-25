@@ -96,6 +96,7 @@ Certifique-se de que todos os critérios de aceite são atendidos durante o dese
 ## Autor
 
 Desenvolvido por Saulo Veiga
+Evidência (design responsivo): https://jam.dev/c/29e266ac-c807-40da-8d72-96d4bf41e96f 
 
 ## Licença
 
