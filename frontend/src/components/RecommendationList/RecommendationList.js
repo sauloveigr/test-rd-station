@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../logo-rd.png';
 
 function RecommendationList({ recommendations }) {
   return (
@@ -9,8 +10,17 @@ function RecommendationList({ recommendations }) {
 
       <ul>
         {recommendations.map((recommendation, index) => (
-          <li key={index} className="mb-2">
-            {recommendation.name}
+          <li
+            key={index}
+            className="mb-2 p-2 rounded-md shadow-md gap-2 grid border"
+          >
+            <span className="text-sm text-gray-500">
+              {recommendation.category}
+            </span>
+            <div className="flex items-center gap-2 font-medium">
+              <img src={Logo} alt="RD logo" className="max-h-4" />
+              {recommendation.name}
+            </div>
           </li>
         ))}
       </ul>
